@@ -9,7 +9,7 @@ converter.OutputPixelFormat = pylon.PixelType_BGR8packed
 converter.OutputBitAlignment = pylon.OutputBitAlignment_MsbAligned
 
 # Define the Camera you can find the S/N  
-SN = '21106187'
+SN = 'Your camera Serial number'
 info = None
 # Search for available cameras on your Network
 for cams in pylon.TlFactory.GetInstance().EnumerateDevices():
